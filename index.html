@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatador Rich-Text</title>
+
+    <!-- Import fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div id="container">
+        <header class="head">
+            <button type="button" class="icones" data-element="formatBlock">
+                <img src="assets/T.svg" alt="" >
+            </button>
+
+            <button type="button" class="icones" data-element="insertParagraph">
+                <img src="assets/P.svg" alt="" >
+            </button>
+
+            <button type="button" class="icones" data-element="bold">
+                <img src="assets/B.svg" alt="">
+            </button>
+
+            <button type="button" class="icones" data-element="italic">
+                <img src="assets/i.svg" alt="">
+            </button>
+
+            <button type="button" class="icones" data-element="superscript">
+                <img src="assets/__.svg" alt="">
+            </button>
+
+            <button type="button" class="icones" data-element="insertOrderedList">
+                <img src="assets/bi_list-ol.svg" alt="">
+            </button>
+
+            <button type="button" class="icones" data-element="insertUnorderedList">
+                <img src="assets/ant-design_unordered-list-outlined.svg" alt="">
+            </button>
+
+            <button type="button" class="icones" data-element="justifyLeft">
+                <img src="assets/akar-icons_text-align-left.svg" alt="">
+            </button>
+
+            <button type="button" class="icones" data-element="justifyRight">
+                <img src="assets/akar-icons_text-align-right.svg" alt="">
+            </button>
+
+            <button type="button" class="icones" data-element="justifyCenter">
+                <img src="assets/akar-icons_text-align-center.svg" alt="">
+            </button>
+
+            <button type="button" class="icones" data-element="justifyFull">
+                <img src="assets/akar-icons_text-align-justified.svg" alt="">
+            </button>
+
+            <button type="button" class="icones" data-element="underLine">
+                <img src="assets/U.svg" alt="">
+            </button>
+
+            <button type="button" class="icones" data-element="createLink">
+                <img src="assets/akar-icons_link-on.svg" alt="">
+            </button>         
+            
+            <button type="button" class="icones" data-element="insertImage">
+                <img src="assets/akar-icons_image.svg" alt="">
+            </button> 
+
+        </header>
+        <hr class="new">
+        <div class="content" contenteditable="true"></div>
+    </div>
+    
+    <!-- Import Javascript -->
+    <script src="main.js" async></script>
+</body>
+</html>
